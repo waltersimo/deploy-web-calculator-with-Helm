@@ -2,10 +2,14 @@
 
 ## This is a deployment of a web simple calculator with helm on Kubernetes
 
-Commands:
-
 ---
+### Import of the repo
+```
+git clone 
+```
+
 ### Installation and Packaging
+
 1. Test 
 ```
 helm template calculator-web > all-in-one.yml
