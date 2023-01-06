@@ -5,7 +5,8 @@
 ---
 ### Import of the repo
 ```
-git clone 
+git clone https://github.com/waltersimo/deploy-web-calculator-with-Helm.git
+cd deploy-web-calculator-with-Helm/
 ```
 
 ### Installation and Packaging
