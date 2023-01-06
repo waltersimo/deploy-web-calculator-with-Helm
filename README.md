@@ -3,13 +3,19 @@
 ## This is a deployment of a web simple calculator with helm on Kubernetes
 
 ---
-### Import of the repo
+### A - Import of the repo
 ```
 git clone https://github.com/waltersimo/deploy-web-calculator-with-Helm.git
 cd deploy-web-calculator-with-Helm/
 ```
 
-### Installation and Packaging
+### B - Customization
+You can edit some variable in the path calculator-web-app/values.yml
+```
+nano calculator-web-app/values.yml
+```
+
+### C- Installation and Packaging
 
 1. Test 
 ```
@@ -37,7 +43,7 @@ kubectl port-forward -n calculator-web-app svc/service-backend-calculator 8001:8
 ```
 ---
 
-### Use the calculator in browser at 
+### D- Use the calculator in browser at 
 ```
 http://localhost:8000
 ```
