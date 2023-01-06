@@ -43,7 +43,7 @@ kubectl port-forward -n calculator-web-app svc/service-backend-calculator 8001:8
 ```
 ---
 
-### D- Use the calculator in browser at 
+### D- Use the calculator in browser
 ```
 http://localhost:8000
 ```
