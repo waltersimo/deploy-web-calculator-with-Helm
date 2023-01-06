@@ -4,6 +4,8 @@
 
 Commands:
 
+---
+### Installation and Packaging
 1. Test 
 ```
 helm template calculator-web > all-in-one.yml
@@ -12,7 +14,7 @@ helm template calculator-web > all-in-one.yml
 2. Installation
 ```
 helm install calculator-web-app --generate-name
-``
+```
 
 3. Packaging
 ```
@@ -28,8 +30,9 @@ kubectl port-forward -n calculator-web-app svc/service-frontend-calculator 8000:
 ```
 kubectl port-forward -n calculator-web-app svc/service-backend-calculator 8001:80
 ```
+---
 
-6. Use the calculator in browser at 
+### Use the calculator in browser at 
 ```
 http://localhost:8000
 ```
