@@ -1,3 +1,3 @@
-# deploy-web-calculator-with-Helm
+# README
 
 ## This is a deployment of a web simple calculator with helm on Kubernetes
